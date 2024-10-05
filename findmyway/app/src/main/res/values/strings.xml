@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">findmyway</string>
+    <string name="logo_description">Logo of Tallaght Hospital</string>
+    <string name="map_description">Map guide for finding your appointment</string>
+
+</resources>

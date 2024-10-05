@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/backgroundColor"> <!-- Background Color Applied -->
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logo_description" />
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tallaght Hospital - Find My Way"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+    <!-- Description Text -->
+    <TextView
+        android:id="@+id/homeDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This Application is here to help you find your appointment, on time, always!"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center" />
+
+    <!-- Navigation Button -->
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appointment Locator"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

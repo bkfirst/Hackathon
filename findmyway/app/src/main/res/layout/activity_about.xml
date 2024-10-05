@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/backgroundColor"> <!-- Background Color Applied -->
+
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appointment Locator"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center" />
+
+    <!-- Description Text -->
+    <TextView
+        android:id="@+id/aboutDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here is your handy guide to finding your next appointment."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center" />
+
+    <!-- Image View -->
+    <ImageView
+        android:id="@+id/mapImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map"
+        android:contentDescription="@string/map_description"
+        android:layout_marginTop="16dp" />
+
+    <!-- Navigation Button -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Page"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

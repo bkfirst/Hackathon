@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="backgroundColor">#89CFF0</color> <!-- Baby Blue Color -->
+    <color name="textColorPrimary">#000000</color>
+    <color name="buttonColor">#FF5722</color>
+
+
+</resources>
